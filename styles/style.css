@@ -1,4 +1,9 @@
-
+/* Shared styles */
+.para_font{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+}
 /* Banner styles */
 .banner{
     filter: brightness(80%);
@@ -100,4 +105,99 @@
     font-size: 15px;
     font-weight: 800px;
     text-transform: uppercase;
+}
+/* Place_date section */
+.place_head{
+    height: 400px;
+    width: 90%;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+    /* background-repeat: no-repeat;  */
+    color: #070211;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding: 100px 50px;
+}
+.place_span_red{
+    color: #F00;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.place_head_text{
+    margin: 0px;
+    padding: 10px;
+}
+.place_btn{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    background-color: #F00;
+    margin: 50px;
+    padding: 10px 20px;
+    
+}
+/* Coming soon style starts */
+.new_best_head{
+    color: #F00;
+    /* text-align: center; */
+    font-size: 15px;
+    font-weight: 500;
+    height: 25px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.com_soon_head{
+    color: #070211;
+    font-size: 50px;
+    font-weight: 900;
+    height: 50px;
+    width: 300px;
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+#com_soon_para{
+    width: 350px;
+    height: 120px;
+    padding-top: 10px;
+    }
+.red_border_img{
+    padding: 50px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+}
+.year_head{
+    color: #F00;
+    font-size: 45px;
+    font-weight: 700;
+    width: 150px;
+    height: 55px;
+}
+#year_text{
+    padding: 0px;
+    height: 95px;
+    width: 275px;
+}
+.year_img{
+    height: 140px;
+    width: 140px;
+}
+.com_soon_container{
+    display: flex;
+    /* margin: 0px 20px; */
+    padding: 0px;
+    border-radius: 5px;
+    /* width: 90%; */
+    height: 500px;
+    justify-content: space-between;
+}
+.com_soon_div{
+    padding: 100px;
 }

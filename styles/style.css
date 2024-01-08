@@ -1,0 +1,64 @@
+
+/* Banner styles */
+.banner{
+   /* width: 1320px;
+    height: 600px;*/
+    filter: brightness(80%);
+    background-image: url(../resources/Banner\ Image.png);
+    border-radius: 16px;
+    margin: 20px;
+  width: 100%;
+
+    background-repeat: no-repeat;
+   
+}
+
+.banner_text{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 170px 250px;
+}
+.banner_title1{
+    font-size: 32px;
+    font-weight: 400;
+    /* padding: 177px 531px 384px 530px; */
+}
+.banner_text_big{
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Off section style starts */
+.off_section_img{
+    width: 802.9px;
+    height: 500px;
+
+}
+.off_section{
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+}
+.off_heading_text{
+    text-align: center;
+    color: #F00;
+    font-size: 80px;
+    font-weight: 700;
+}
+.off_deal_text{
+    color: #F00;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px;
+}
+.off_catagory_text{
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 5px 0px 30px 0px;
+    padding: 0px;
+}

@@ -17,7 +17,11 @@
     font-family: 'Merriweather', serif;
     font-family: 'Open Sans', sans-serif;
 }
-
+.red_text{
+    color:#F00; 
+    font-size: 18px;
+    font-weight: 500;
+}
 .para_font{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
@@ -70,10 +74,7 @@
     font-weight: 700;
 }
 .off_deal_text{
-    color: #F00;
     text-align: center;
-    font-size: 15px;
-    font-weight: 500;
     margin: 0px;
     padding: 0px;
 }
@@ -180,17 +181,15 @@
     padding: 100px;
 }
 .new_best_head{
-    color: #F00;
-    font-size: 15px;
     font-weight: 500;
     height: 25px;
     width: 200px;
 }
 .com_soon_head{
     color: #070211;
-    font-size: 50px;
+    font-size: 40px;
     height: 50px;
-    width: 300px;
+    width: 350px;
     text-transform: capitalize;
 }
 #com_soon_para{
@@ -224,14 +223,7 @@
     width: 100%;
     border-radius: 5px;
     max-width: 1320px;
-    max-height: 900px;
-   
-    
-}
-/* .holi_text_container{  */
- /* margin: auto; */
-/* } */
-
+ }
 .holi_sec_title{
     width: 260px;
     height: 30px;
@@ -258,30 +250,45 @@
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    margin :auto;
+    /* margin :auto; */
     padding-top: 20px;
 }
 .holiday_img_container{
     display: flex;
     background-image: url(../resources/Rectangle\ 2.png);
+    margin-left: 20px;
+    margin-bottom: 50px;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .lady_50_box{
     display: flex;
-    position: relative;
-       /* justify-content:space-between; */
-}
+   }
 .img_fifty{
-     /* position:fixed; */
-     /* align-items: flex-start; */
-} 
+     position: absolute;
+    } 
 .lady_img{
     position: absolute;
-    padding: 0px;
+    padding-left: 100px;
     margin: 0px;
     width: 400px;
     height: 435px;
 }
+/* Awesome Portfolio styles */
+.awesome_port_container{
+    width: 100%;
+    border-radius: 5px;
+    max-width: 1320px;
+    margin: auto;
+  }
 
+#aw_port_head{
+    width: 560px;
+    height: 60px;
+}
+#aw_port_text{
+    width: 890px;
+    height: 60px;
+    text-align: start;
+}

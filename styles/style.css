@@ -250,7 +250,7 @@
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    /* margin :auto; */
+    margin :auto;
     padding-top: 20px;
 }
 .holiday_img_container{
@@ -291,4 +291,31 @@
     width: 890px;
     height: 60px;
     text-align: start;
+}
+/* Subscribe styles */
+#subs_head{
+    text-align: center;
+    width: 520px;
+    height: 60px;
+    margin: auto;
+   }
+
+#holi_conta_id{
+    padding-top: 50px;
+    margin: auto;
+    text-align: center; 
+}
+#subs_email{
+    width: 500px;
+    height: 50px;
+    border-radius: 50px 0px 0px 50px;
+    background: #FFF;
+    padding: 0px;
+}
+.subscribe_btn{
+    width: 180px;
+    height: 50px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
 }

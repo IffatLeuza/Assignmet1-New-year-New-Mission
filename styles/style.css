@@ -290,6 +290,7 @@
 #aw_port_text{
     width: 890px;
     height: 60px;
+    margin: 0px;
     text-align: start;
 }
 /* Subscribe styles */
@@ -302,6 +303,7 @@
 
 #holi_conta_id{
     padding-top: 50px;
+    padding-bottom: 100px;
     margin: auto;
     text-align: center; 
 }
@@ -319,3 +321,63 @@
     border-radius: 0px 50px 50px 0px;
     background: #F00;
 }
+/* footer section styles */
+.foot_container{
+    width: 100%;
+    /* border-radius: 10px;
+    max-width: 1320px; */
+    margin: auto;
+    background: none;
+    background-color: #070211;
+}
+
+.foot_address_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin: auto;
+}
+.foot_text{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+.foot_address{
+    width: 370px;
+    height: 80px;
+    
+} 
+.foot_btn_container{
+    display: flex;
+    justify-content: space-around;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.foot_images{
+    padding: 50px;
+    margin: 20px 450px 20px 450px;
+    
+}
+.foot_btn{
+    background: none;
+    background-color: none;
+    border: none;
+}
+
+#all_right_id{
+    width: 295px;
+    height: 30px;
+}
+#unsub_id{
+    width: 145px;
+    height: 30px;
+}
+.hr_style{
+    max-width: 1320px;
+    margin: auto;
+    border-color: rgba(255, 255, 255, 0.15);
+   }

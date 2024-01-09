@@ -1,8 +1,27 @@
 /* Shared styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&family=Open+Sans&display=swap'); /*Heading font family- Merriweather*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;900&family=Open+Sans&display=swap');
+
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+.header_merri_font{
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+  }
+.text_inter_font{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .para_font{
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 400; 
 }
 /* Banner styles */
 .banner{
@@ -11,6 +30,7 @@
     border-radius: 5px;
     margin: 20px;
     width: 100%;
+    max-width: 1320px;
     background-repeat: no-repeat; 
 }
 
@@ -27,19 +47,21 @@
 }
 .banner_text_big{
     font-size: 72px;
-    font-weight: 900;
-}
+   }
 
 /* Off section style starts */
 .off_section_img{
-    width: 802.9px;
+    margin: auto;
+    width: 800px;
     height: 500px;
+    align-items: center;
 
 }
 .off_section{
-    margin: auto;
-    width: 60%;
-    padding: 0px 5px;
+    /* margin: auto; */
+    width: 100%;
+    max-width: 1320px;
+    /* padding: 0px; */
 }
 .off_heading_text{
     text-align: center;
@@ -66,10 +88,13 @@
 
 /* Welcome party styles */
 .wel_party{
+    display: flex;
+    justify-content: space-between;
     background-image: url(../resources/Vectorrr.png);
     margin: 100px 20px;
     border-radius: 5px;
     width: 100%;
+    max-width: 1320px;
     height: 500px;
     background-repeat: no-repeat; 
 }
@@ -79,7 +104,6 @@
 .wel_party_title{
     color: #FFF;
     font-size: 60px;
-    font-weight: 900;
     letter-spacing: 5px;
     height: 170px;
     width: 600px;
@@ -109,15 +133,16 @@
 /* Place_date section */
 .place_head{
     height: 400px;
-    width: 90%;
-    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); 
+    width: 100%;
+    max-width: 1320px;
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 80%); 
     /* background-repeat: no-repeat;  */
     color: #070211;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
     text-transform: capitalize;
-    padding: 100px 50px;
+    padding: 50px;
 }
 .place_span_red{
     color: #F00;
@@ -143,30 +168,35 @@
     
 }
 /* Coming soon style starts */
+.com_soon_container{
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    border-radius: 5px;
+    height: 500px;
+    justify-content: space-between;
+}
+.com_soon_div{
+    padding: 100px;
+}
 .new_best_head{
     color: #F00;
-    /* text-align: center; */
     font-size: 15px;
     font-weight: 500;
     height: 25px;
     width: 200px;
-    margin: 0px;
-    padding: 0px;
 }
 .com_soon_head{
     color: #070211;
     font-size: 50px;
-    font-weight: 900;
     height: 50px;
     width: 300px;
-    margin: 0px;
-    padding: 0px;
     text-transform: capitalize;
 }
 #com_soon_para{
     width: 350px;
     height: 120px;
-    padding-top: 10px;
+    padding-top: 100px;
     }
 .red_border_img{
     padding: 50px;
@@ -181,7 +211,7 @@
     height: 55px;
 }
 #year_text{
-    padding: 0px;
+    padding-top: 50px;
     height: 95px;
     width: 275px;
 }
@@ -189,15 +219,69 @@
     height: 140px;
     width: 140px;
 }
-.com_soon_container{
-    display: flex;
-    /* margin: 0px 20px; */
-    padding: 0px;
+/* Holiday section start */
+.holi_sec_container{
+    width: 100%;
     border-radius: 5px;
-    /* width: 90%; */
-    height: 500px;
-    justify-content: space-between;
+    max-width: 1320px;
+    max-height: 900px;
+   
+    
 }
-.com_soon_div{
-    padding: 100px;
+/* .holi_text_container{  */
+ /* margin: auto; */
+/* } */
+
+.holi_sec_title{
+    width: 260px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 50px;
+    margin: auto;
+    text-align: center; 
 }
+.holi_sale_text{
+    font-size: 72px;
+    width: 670px;
+    height: 90px;
+    margin: auto;
+    text-align: center; 
+}
+.holi_sale_text span{
+    color: #F00;
+}
+.holi_sec_para{
+    color: rgba(7, 2, 17, 0.60);
+    width: 1050px;
+    height: 95px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    margin :auto;
+    padding-top: 20px;
+}
+.holiday_img_container{
+    display: flex;
+    background-image: url(../resources/Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.lady_50_box{
+    display: flex;
+    position: relative;
+       /* justify-content:space-between; */
+}
+.img_fifty{
+     /* position:fixed; */
+     /* align-items: flex-start; */
+} 
+.lady_img{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    width: 400px;
+    height: 435px;
+}
+
